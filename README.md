@@ -14,7 +14,7 @@ yarn add @gamalielmh921230/node_timer
 ```javascript 
     const Timer = require('@gamalielmh921230/node_timer')
 
-    const Relog= new Timer(1000,()=>{ 
+    const Reloj= new Timer(1000,()=>{ 
         
         const horas = (new Date()).getHours();
         const minutos = (new Date()).getMinutes();
