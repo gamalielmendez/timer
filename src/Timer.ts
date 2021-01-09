@@ -32,7 +32,7 @@ export default class Timer{
         return this.enabled 
     }
 
-    async Tick(_this:any){
+    private async Tick(_this:any){
         
         if(_this.callBack){
             await _this.callBack(_this.Interval) 

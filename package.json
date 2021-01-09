@@ -1,13 +1,18 @@
 {
-  "name": "Timer",
-  "version": "1.0.0",
+  "name": "@gamalielmh921230/node_timer",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "publish": "tsc && npm publish --access=public"
   },
   "devDependencies": {
     "typescript": "^4.1.3"
-  }
+  },
+  "keywords": [
+    "timer",
+    "Thread"
+  ]
 }
