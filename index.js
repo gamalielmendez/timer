@@ -1,1 +1,1 @@
-const 
+module.exports =require('./dist/Timer.js')
