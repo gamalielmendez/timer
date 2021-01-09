@@ -1,1 +1,1 @@
-module.exports =require('./dist/Timer.js')
+module.exports =require('./src/Timer')

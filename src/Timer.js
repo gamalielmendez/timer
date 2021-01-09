@@ -1,11 +1,12 @@
-export default class Timer{
 
-    private Interval:number=1000
-    private callBack:any=null
-    private myThread:any=null
-    private enabled:boolean=false
+module.exports = class Timer{
 
-    constructor(Interval:number=1000,callBack:any=null){
+    Interval=1000
+    callBack=null
+    myThread=null
+    enabled=false
+
+    constructor(Interval=1000,callBack=null){
         this.Interval=Interval
         this.callBack=callBack
     }
@@ -20,11 +21,11 @@ export default class Timer{
         this.enabled=false
     }
 
-    setCallback(callBack:any=null){
+    setCallback(callBack=null){
         this.callBack=callBack
     }
 
-    setInterval(Interval:number=1000){
+    setInterval(Interval=1000){
         this.Interval=Interval
     }
 
@@ -32,7 +33,7 @@ export default class Timer{
         return this.enabled 
     }
 
-    private async Tick(_this:any){
+    async Tick(_this){
         
         if(_this.callBack){
             await _this.callBack(_this.Interval) 
@@ -44,3 +45,4 @@ export default class Timer{
     }
 
 }
+
