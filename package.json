@@ -1,11 +1,12 @@
 {
   "name": "@gamalielmh921230/node_timer",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "index.js",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "publishpk": "npm publish --access=public"
+    "publishpk": "npm publish --access=public",
+    "test1": "node ./test/reloj.js"
   },
   "keywords": [
     "timer",
