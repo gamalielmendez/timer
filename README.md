@@ -24,7 +24,7 @@ yarn add @gamalielmh921230/node_timer
     })
 
     //se arranca el timer
-    Relog.start()
+    Reloj.start()
 
 ```` 
 # Definicion de la clase
