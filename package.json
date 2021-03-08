@@ -1,6 +1,6 @@
 {
   "name": "@gamalielmh921230/node_timer",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "license": "MIT",
   "private": false,
@@ -10,7 +10,9 @@
   },
   "keywords": [
     "timer",
-    "Thread"
+    "Thread",
+    "SetTimeout",
+    "SetInterval"
   ],
   "author": "Gamaliel Mendez",
   "bugs": {

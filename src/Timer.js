@@ -13,7 +13,7 @@ module.exports = class Timer{
 
     start(){
         this.myThread=setTimeout(this.Tick,this.Interval,this)
-        this.enabled=false
+        this.enabled=true
     }
 
     stop(){
