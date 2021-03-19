@@ -1,4 +1,3 @@
-
 module.exports = class Timer{
 
     Interval=1000
@@ -21,17 +20,11 @@ module.exports = class Timer{
         this.enabled=false
     }
 
-    setCallback(callBack=null){
-        this.callBack=callBack
-    }
+    setCallback(callBack=null){ this.callBack=callBack }
 
-    setInterval(Interval=1000){
-        this.Interval=Interval
-    }
+    setInterval(Interval=1000){ this.Interval=Interval }
 
-    isrunning(){
-        return this.enabled 
-    }
+    isrunning(){ return this.enabled }
 
     async Tick(_this){
         
@@ -43,6 +36,4 @@ module.exports = class Timer{
         _this.start() 
 
     }
-
 }
-
