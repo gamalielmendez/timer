@@ -1,13 +1,15 @@
 module.exports = class Timer{
 
-    Interval=1000
-    callBack=null
-    myThread=null
-    enabled=false
+    //Interval=1000
+    //callBack=null
+    //myThread=null
+    //enabled=false
 
     constructor(Interval=1000,callBack=null){
         this.Interval=Interval
         this.callBack=callBack
+        this.myThread=null
+        this.enabled=false
     }
 
     start(){
